@@ -87,21 +87,49 @@ a:focus {
 
 /* About Section */
 .about-container {
+  margin-top: 30px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-container {
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 10px;
-  padding: 10px 20px;
   margin-right: 25px;
   width: auto;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+
   background: var(--background);
   box-shadow: var(--box-shadow);
 }
 
-img {
-  height: 300px;
+.np-link:hover {
+  border-bottom: none;
+  transform: translateY(30px);
+}
+
+.np-text {
+  /* text-shadow: 1px 1px; */
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.hp {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border: solid 5px rgb(98, 65, 4);
+  border-radius: 10%;
+  filter: opacity(0.7);
+  box-shadow: 5px 5px;
+}
+
+.np {
+  border-radius: 10px;
+  filter: opacity(0.8);
   width: 300px;
 }
 
@@ -163,6 +191,10 @@ button:hover:not(.outline) {
 .outline:hover {
   background: var(--primary-color);
   color: var(--on-primary);
+}
+
+.tablica {
+  border-color: #ff2d2d;
 }
 
 .text-box {
