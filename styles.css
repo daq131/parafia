@@ -212,55 +212,30 @@ button:hover:not(.outline) {
   padding: 30px;
 }
 
+.uwaga {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: solid;
+  color: #000;
+}
+
+.contact {
+  font-size: 16px;
+}
 p {
   margin: 0;
   line-height: 25px;
 }
 
 /* Contact Section */
-.fab {
-  font-size: 100px;
-  margin-right: 50px;
-  cursor: pointer;
-  color: var(--primary-color);
-}
-
-.fab:hover {
-  color: var(--on-background);
-}
-
-/* Dark Mode Toggle */
-.theme-switch-wrapper {
-  display: flex;
-  align-items: center;
-  z-index: 100;
-  position: fixed;
-  right: 25px;
-  top: 30px;
-}
-
-.theme-switch-wrapper span {
-  margin-right: 10px;
-  font-size: 1rem;
-}
-
-.toggle-text {
-  position: relative;
-  top: -4px;
-  right: 5px;
-  color: var(--on-background);
-}
-
-.theme-switch {
-  display: inline-block;
-  height: 34px;
-  position: relative;
-  width: 60px;
-}
-
-.theme-switch input {
-  display: none;
-}
 
 .slider {
   background: #ccc;
